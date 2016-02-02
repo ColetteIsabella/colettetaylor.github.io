@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  font-family: 'IM Fell DW Pica', sans-serif;
+  background-color: #D3B5F7;
+  color: #130220;
+}
+
+header {
+  width: 100%;
+  height: 10em;
+}
+.craft-header {
+  background-color: #2F0D49;
+  color: #BA9FCF;
+}
+
+.myhead {
+  height: 9em;
+  margin-left: .1%;
+  display: block;
+  z-index: 99;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #BA9FCF;
+}
+nav li {
+  font-size: 2rem;
+  display: inline-block;
+  padding: .5em;
+  list-style: none;
+
+}
+nav ul {
+  padding: 0;
+  margin: -7em 0 0 10em;
+  overflow: hidden;
+}
+@media only screen and (max-width: 750px) {
+li {
+  font-size: 2rem;
+  padding-top: .5em;
+  list-style: none;
+}
+.craft-nav {
+  float: left;
+  padding-left: .1%;
+  margin-top: .5em 60% .5em .1%;
+}
+nav a {
+  text-decoration: none;
+  color: #BA9FCF;
+}
+.myhead {
+  height: 9em;
+  margin-left: .1%;
+  margin-top: 1em;
+  display: block;
+  z-index: 99;
+}
+.myhead:hover {
+  cursor: pointer;
+}
+nav ul {
+  display: none;
+  width: 100%;
+}
+
+#dropdown {
+  display: none;
+  position: absolute;
+  width: 12em;
+  text-align: left;
+  padding-left: 1em;
+  z-index: 9;
+  margin-top: .5em;
+  margin-left: 0;
+  background-color: #2F0D49;
+
+}
+
+
+a:hover {
+  color: #130220;
+}
+}
+@media only screen and (min-width: 600px){}
+
+.icons {
+  height: 5em;
+  width: 5em;
+  padding: .5em;
+  display: inline-block;
+}
+
+.social {
+  float: right;
+  padding: 2em 1em;
+
+}
+/*-----------mousebee----------*/
+.color.grey {
+  background-color: white;
+  color: black;
+}
+
+.mousebee-header, .mousebee-footer {
+  background-color: black;
+  color: white;
+
+}
+.mousebee a {
+  color: white;
+}
+.mousebee-nav a:hover {
+  color: yellow;
+}
+.listings {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.allthese {
+  text-align: center;
+  width: 100%;
+  float: right;
+}
+.items img {
+  border: .3em solid #000000;
+  height: 20em;
+}
+.items {
+  display: inline-block;
+  width: 22%;
+  margin: 3em 2% 4em 0;
+}
+.snipcart-add-item {
+  color: black;
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding: .2em;
+  margin: 0;
+
+}
+@media only screen and (max-width: 800px) {
+nav {
+  margin-top: -1em;
+}
+nav a:hover {
+  color: yellow;
+}
+#mbdropdown {
+  position: absolute;
+  width: 10em;
+  text-align: left;
+  padding-left: 0.5em;
+  z-index: 9;
+  margin-top: 1.2em;
+  background-color: #000000;
+  margin-left: 0;
+}
+.mobilesafe {
+  overflow: hidden;
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+.mblistings {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+}
+
+
+/*--------------landing----------*/
+#sample {
+  text-align: center;
+  height: auto;
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 2em;
+}
+.caption {
+  font-size: 1.4rem;
+  color: #130220;
+  background-color: #E2E2E2;
+  text-align: center;
+  width: 40%;
+  margin: 0 30%;
+
+}
+p {
+  color: #2F0D49;
+  text-align: center;
+  font-size: 2rem;
+
+}
+p a {
+  color: #2F0D49;
+  text-decoration: none;
+}
+p a:hover {
+  color: #BA9FCF
+}
+.clumped {
+  width: 100%;
+}
+.promo {
+  float: right;
+  margin: 4em;
+  margin-right: 1em;
+  width: 40%;
+  cursor: pointer;
+}
+.mouse {
+  float: right;
+  width: 20%;
+  height: auto;
+  margin-top: 15em;
+  margin-right: 6em;
+}
+.mailchimp {
+  display: none;
+  margin-top: 23em;
+}
+.etsy {
+  text-align: center;
+  width: 100%;
+  padding: 1em 30%;
+}
+#mc_embed_signup {
+  background: #2F0D49;
+  color: #BA9FCF;
+  clear: left;
+  font-size: 1.6rem;
+
+}
+
+/*--------------gallery----------*/
+#gallerypage {
+  min-height: 60em;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+#carousel {
+  width: 100%;
+}
+.gallery {
+  height: auto;
+  width: 17%;
+  float: right;
+  display: inline;
+  overflow: visible;
+  margin: 1em;
+  z-index: 1;
+}
+.zoom {
+  display: none;
+  width: 60%;
+  height: auto;
+  margin: 1em 20%;
+
+}
+
+.carousel img {
+  display: block;
+}
+
+/*#pagination {
+  width: 11em;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  bottom: -1em;
+  right: 0;
+}
+#pagination img {
+  display: block;
+  float: left;
+  width: 7em;
+  height: 7em;
+  padding: 1em .5em 1em 3em;
+  opacity: .7;
+}
+#pagination img.selected {
+  background: url (img/thumb-selected.png) 0 0 no-repeat transparent;
+  width: 8em;
+  height: 8em;
+  padding: 1em 1em 1em 2em;
+  opacity: 1;
+}
+*/
+/*--------------resume--------*/
+
+a {
+  text-decoration: none;
+}
+.pdf p {
+  color: #479030;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 1em;
+}
+
+.tech:hover {
+background-color: #C4FBB3;
+cursor: auto;
+}
+
+h3, li {
+  font-size: 1.8rem;
+  list-style: none;
+  line-height: 1.8em;
+}
+.link {
+  text-decoration: none;
+  color: #479030;
+}
+
+/*--------------post----------*/
+.post {
+  text-align: left;
+  padding: 2em;
+}
+
+/*--------------about-----------*/
+.about {
+  float: right;
+  margin: 1em;
+  width: 20em;
+  height: auto;
+}
+.abouttext {
+  width: 100%;
+  padding: 0 2em;
+}
+.patrick {
+  float: left;
+  width: 25em;
+  height: auto;
+  padding: 2em;
+}
+.molly {
+  float: right;
+  width: 30em;
+  height: auto;
+  padding: 2em;
+}
+
+/*--------------footer----------*/
+footer {
+  width: 100%;
+  text-align: left;
+  height: 7em;
+  background-color: #BA9FCF;
+  color: #2F0D49;
+  margin-top: 5em;
+
+
+}
+footer a {
+  color: #130220;
+}
+footer .site-title {
+  font-size: 1.4rem;
+  padding: 1em 2em 0 1em;
+}
+footer .license {
+  padding: 1em;
+  font-size: 1em;
+  padding-bottom: 0;
+}
