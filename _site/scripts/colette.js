@@ -10,7 +10,7 @@ $(function() {
     $('#dropdown').css({'display':'block'});
     menuVisible = true;
   });
-  $('body').click(function() {
+  $('#dropdown').click(function() {
     $("#dropdown").css({'display':'none'});
     menuVisible = false;
   });
