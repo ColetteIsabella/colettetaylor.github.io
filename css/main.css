@@ -34,7 +34,6 @@ header {
 .myhead {
   height: 9em;
   margin-left: .1%;
-  margin-top: 1em;
   display: block;
   z-index: 99;
 }
@@ -127,8 +126,31 @@ a:hover {
 .mousebee-header, .mousebee-footer {
   background-color: black;
   color: white;
+}
+.mblicense {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  font-size: 1em;
+  padding-bottom: 1em;
 
 }
+.mousebee-footer {
+  width: 100%;
+  text-align: left;
+  height: 7em;
+  background-color: #BA9FCF;
+  color: #2F0D49;
+  margin-top: 5em;
+}
+.mousebee-footer a {
+  color: white;
+}
+footer .site-title {
+  font-size: 1.4rem;
+  padding: 1em 2em 0 1em;
+}
+
 .mousebee a {
   color: white;
 }
@@ -219,7 +241,8 @@ p {
   color: #2F0D49;
   text-align: center;
   font-size: 2rem;
-
+  text-indent: 2em;
+  margin-left: 1em;
 }
 p a {
   color: #2F0D49;
@@ -262,6 +285,31 @@ p a:hover {
 
 }
 
+/*-------------faq---------------*/
+.inc {
+  float: right;
+  border: .3em solid #000000;
+  margin: 1em 40%;
+  width: 20%;
+  height: auto;
+
+}
+.stamp {
+  border: .3em solid #000000;
+  float: right;
+  margin: 1em 40%;
+  width: 20%;
+  height: auto;
+}
+.marvel {
+  border: .3em solid #000000;
+  float: right;
+  margin: 1em 33%;
+  width: 33%;
+  height: auto;
+}
+
+
 /*--------------gallery----------*/
 #gallerypage {
   min-height: 60em;
@@ -269,6 +317,11 @@ p a:hover {
 h1 {
   text-align: center;
   font-size: 3em;
+}
+h2 {
+  font-size: 2.3em;
+  padding-left: 2em;
+
 }
 #carousel {
   width: 100%;
