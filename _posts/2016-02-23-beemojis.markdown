@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Beemojis!"
+date:   2016-02-23 14:21:31 -0800
+comments: true
+---
+<div>
+  <h1>Beemojis</h1>
+  <h2>I was looking at the stickers in Facebook's collection, and just found a serious lack of... something.</h2>
+  <p>There are dogs, and cats, and foxes, and weird exagerated people, but where, I ask you, were the bees?</p>
+  <p>So I made some.</p>
+  <h2>I give you: Beemojis!</h2>
+  <p>These are the first of the set, just some basics which I drew up using colored pencil which is not the ideal medium for stickers, but it's what I had to start with.</p>
+  <p>If you are interested in these guys for your own use, let me know, because I love them and use them all the time!</p>
+
+    <img class="content1 beemojiangry" src="/img/bee_angry.png">
+      <div class="overlay1"><img class="beemojiangrylg" src="/img/bee_angry.png" title="Angry Bee"><h2 class="state">Angry Bee</h2></div>
+
+    <img class="beemoji content2" src="/img/bee_bang.png">
+      <div class="overlay2"><img class="beemojilg" src="/img/bee_bang.png"><h2 class="state">Surprised Bee</h2></div>
+
+    <img class="beemoji content3" src="/img/bee_congrats.png">
+      <div class="overlay3"><img class="beemojilg" src="/img/bee_congrats.png"><h2 class="state">Congratuations Bee</h2></div>
+
+    <img class="beemoji content4" src="/img/bee_dizzy.png">
+      <div class="overlay4"><img class="beemojilg" src="/img/bee_dizzy.png"><h2 class="state">Dizzy Bee</h2></div>
+
+    <img class="beemoji content5" src="/img/bee_drink.png">
+      <div class="overlay5"><img class="beemojilg" src="/img/bee_drink.png"><h2 class="state">Cheers Bee</h2></div>
+
+    <img class="beemoji content6" src="/img/bee_happy.png">
+      <div class="overlay6"><img class="beemojilg" src="/img/bee_happy.png"><h2 class="state">Happy Bee</h2></div>
+
+    <img class="beemoji content7" src="/img/bee_hug.png">
+      <div class="overlay7"><img class="beemojilg" src="/img/bee_hug.png"><h2 class="state">Hugs! Bee</h2></div>
+
+    <img class="beemoji content8" src="/img/bee_lol.png">
+      <div class="overlay8"><img class="beemojilg" src="/img/bee_lol.png"><h2 class="state">LOL Bee</h2></div>
+
+    <img class="beemoji content9" src="/img/bee_love.png">
+      <div class="overlay9"><img class="beemojilg" src="/img/bee_love.png"><h2 class="state">Love Bee</h2></div>
+
+    <img class="beemoji content10" src="/img/bee_nom.png">
+      <div class="overlay10"><img class="beemojilg" src="/img/bee_nom.png"><h2 class="state">Nom Bee</h2></div>
+
+    <img class="beemoji content11" src="/img/bee_peeking.png">
+      <div class="overlay11"><img class="beemojilg" src="/img/bee_peeking.png"><h2 class="state">Shy Bee</h2></div>
+
+    <img class="beemoji content12" src="/img/bee_sad.png">
+      <div class="overlay12"><img class="beemojilg" src="/img/bee_sad.png"><h2 class="state">Sad Bee</h2></div>
+
+    <img class="beemoji content13" src="/img/bee_sleeping.png">
+      <div class="overlay13"><img class="beemojilg" src="/img/bee_sleeping.png"><h2 class="state">Sleeping Bee</h2></div>
+
+    <img class="beemoji content14" src="/img/bee_thirsty.png">
+      <div class="overlay14"><img class="beemojilg" src="/img/bee_thirsty.png"><h2 class="state">Thirsty Bee</h2></div>
+
+    <img class="beemoji content15" src="/img/bee_tongue.png">
+      <div class="overlay15"><img class="beemojilg" src="/img/bee_tongue.png"><h2 class="state">:P Bee</h2></div>
+
+    <img class="beemoji content16" src="/img/bee_what.png">
+      <div class="overlay16"><img class="beemojilg" src="/img/bee_what.png"><h2 class="state">Confused Bee</h2></div>
+
+

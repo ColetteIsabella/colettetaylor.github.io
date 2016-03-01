@@ -1,15 +1,58 @@
----
-layout: default
----
-<!--<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+  {% include head.html %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+  <body>
+
+<header class="craft-header">
+
+  <div class="social clearfix">
+    <a href="https://facebook.com/{{ include.username }}"><img class="icons" src="/assets/fb.png"></a>
+    <a href="https://twitter.com/{{ include.username }}"><img class="icons" src="/assets/twitter.png"></a>
+    <a href="https://github.com/{{ include.username }}"><img class="icons" src="/assets/github-new.png"></a>
+    <a href="https://github.com/{{ include.username }}"><img class="icons" src="/assets/rss.png"></a>
   </div>
 
-</article>-->
+  <nav class="craft-nav clearfix">
+    <img class="myhead" src="/assets/newicon.png">
+      <ul id="dropdown">
+        <li><a class="click" href="/index.html">Home</a></li>
+        <li><a class="click" href="/about/index.html">About</a></li>
+        <li><a class="click" href="/resume/index.html">Resume</a></li>
+        <li><a class="click" href="https://www.facebook.com/AnatomyOfABeekeeper/?fref=ts">Blog</a></li>
+        <!--<li><a href="/gallery/index.html">Gallery</a></li>-->
+        <li><a class="click" href="/mousebee/faq.html">MouseBee!</a></li>
+      </ul>
+      </nav>
+
+      <p class="meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+
+    </header>
+
+      <article class="post-content">
+        {{ content }}
+      </article>
+<div id="disqus_thread"></div>
+      <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'cisabella'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

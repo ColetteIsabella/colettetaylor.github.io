@@ -117,7 +117,83 @@ a:hover {
   padding: 2em 1em;
 
 }
+/*-----------blog-------------*/
+
+
+.post-header {
+  text-align: center;
+  font-style: bold;
+  font-size: 3rem;
+  color: #7E589B;
+}
+.post-date, .post-link {
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+  color: #7E589B;
+}
+#blog {
+  border-top: .5em solid #BA9FCF;
+  border-width: 80%;
+  margin: 0 10%;
+}
+#disqus_thread {
+  margin: 0 .75em;
+}
+.beemoji {
+  height: 15em;
+  width: auto;
+  padding: 1em;
+  border: solid .2em #130220;
+  margin: .5em;
+  cursor: pointer;
+}
+.beemojilg {
+  float: right;
+  width: 40%;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #7E589B;
+  margin: 10% 25% 0 25%;
+}
+.beemojiangry {
+  width: 18em;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #130220;
+  margin: .5em;
+  cursor: pointer;
+}
+.beemojiangrylg {
+  float: right;
+  width: 50%;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #7E589B;
+  margin: 20% 25% 0 25%;
+}
+.state {
+  text-align: center;
+}
+.overlay1, .overlay2, .overlay3, .overlay4,
+.overlay5, .overlay6, .overlay7, .overlay8,
+.overlay9, .overlay10, .overlay11, .overlay12,
+.overlay13, .overlay14, .overlay15, .overlay16 {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 10%;
+
+  top: 50em;
+  background-color: #f5f5f5;
+  z-index: 2;
+
+}
+
 /*-----------mousebee----------*/
+
+
 .color.grey {
   background-color: white;
   color: black;
@@ -427,6 +503,20 @@ h3, li {
   width: 30em;
   height: auto;
   padding: 2em;
+}
+.slothline {
+  width: 100%;
+  text-align: center;
+}
+.slothses {
+  width: auto;
+  height: 20em;
+  padding: 1em;
+}
+title {
+  font-family: 'IM Fell DW Pica', sans-serif;
+  font-size: 1.9em;
+  color: #130220;
 }
 
 /*--------------footer----------*/
