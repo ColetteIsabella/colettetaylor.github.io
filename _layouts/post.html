@@ -4,9 +4,31 @@
   {% include head.html %}
 
   <body>
-  {% include header.html %}
+<header class="craft-header">
 
-    <p class="meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+  <div class="social clearfix">
+    <a href="https://facebook.com/{{ include.username }}"><img class="icons" src="/assets/fb.png"></a>
+    <a href="https://twitter.com/{{ include.username }}"><img class="icons" src="/assets/twitter.png"></a>
+    <a href="https://github.com/{{ include.username }}"><img class="icons" src="/assets/github-new.png"></a>
+    <a href="https://github.com/{{ include.username }}"><img class="icons" src="/assets/rss.png"></a>
+  </div>
+
+  <nav class="craft-nav clearfix">
+    <img class="myhead" src="/assets/newicon.png">
+      <ul id="dropdown">
+        <li><a class="click" href="/index.html">Home</a></li>
+        <li><a class="click" href="/about/index.html">About</a></li>
+        <li><a class="click" href="/resume/index.html">Resume</a></li>
+        <li><a class="click" href="/blog/index.html">Blog</a></li>
+        <!--<li><a href="/gallery/index.html">Gallery</a></li>-->
+        <li><a class="click" href="/mousebee/faq.html">MouseBee!</a></li>
+      </ul>
+      </nav>
+<p class="meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+
+</header>
+
+
 
       <article class="post-content">
         {{ content }}
