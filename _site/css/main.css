@@ -128,15 +128,35 @@ a:hover {
 }
 .post-date, .post-link {
   text-align: center;
-  font-size: 2rem;
   display: block;
   color: #7E589B;
 }
-#blogmain {
+
+#blog {
   border-top: .5em solid #BA9FCF;
   border-width: 80%;
   margin: 0 10%;
 }
+.post-content {
+  display: block;
+}
+.post-link {
+  font-size: 2.2rem;
+  line-height: 1rem;
+}
+.post-date {
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-top: .3em;
+  padding-bottom: 1em;
+
+}
+.post-separate{
+  border-bottom: .2em solid #BA9FCF;
+  border-width: 60%;
+  margin: 1.6em 20%;
+}
+
 #disqus_thread {
   margin: 0 .75em;
 }

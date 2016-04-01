@@ -18,7 +18,7 @@ navigation:
   - text: About
     url: about/
 
-  - text: Blog
+  - text: blog
     url: blog/
 
   - text: Gallery

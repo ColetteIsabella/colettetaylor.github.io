@@ -5,9 +5,20 @@
     <description></description>
     <link>http://colettetaylor.com//</link>
     <atom:link href="http://colettetaylor.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Apr 2016 13:57:58 -0700</pubDate>
-    <lastBuildDate>Fri, 01 Apr 2016 13:57:58 -0700</lastBuildDate>
+    <pubDate>Fri, 01 Apr 2016 15:36:00 -0700</pubDate>
+    <lastBuildDate>Fri, 01 Apr 2016 15:36:00 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Testing!</title>
+        <description>&lt;p&gt;This is a test&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+        <link>http://colettetaylor.com//2016/04/01/Testing.html</link>
+        <guid isPermaLink="true">http://colettetaylor.com//2016/04/01/Testing.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Beemojis!</title>
