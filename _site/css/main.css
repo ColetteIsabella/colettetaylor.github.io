@@ -160,6 +160,10 @@ a:hover {
 #disqus_thread {
   margin: 0 .75em;
 }
+.blogimg {
+  text-align: center;
+  padding: 1em;
+}
 .beemoji {
   height: 15em;
   width: auto;
@@ -201,12 +205,11 @@ a:hover {
 .overlay13, .overlay14, .overlay15, .overlay16 {
   display: none;
   position: absolute;
-  height: 100%;
-  width: 80%;
-  left: 10%;
-
-  top: 50em;
-  background-color: #f5f5f5;
+  height: 60%;
+  width: 60%;
+  left: 20%;
+  top: 40%;
+  background-color: #d1d1e0;
   z-index: 2;
 
 }
