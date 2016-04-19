@@ -1,7 +1,3 @@
-[submodule "leslieknope"]
-  path = leslieknope
-  url = https://github.com/ColetteIsabella/leslieknope.git
-
-[submodule "timezone"]
-  path = timezone
-  url = https://github.com/ColetteIsabella/timezone.git
+[submodule "leslie-knope"]
+	path = leslie-knope
+	url = https://github.com/ColetteIsabella/leslie-knope

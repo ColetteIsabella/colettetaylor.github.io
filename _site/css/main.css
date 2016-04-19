@@ -213,6 +213,18 @@ a:hover {
   z-index: 2;
 
 }
+.app-separate {
+  border-bottom: .2em solid #BA9FCF;
+  border-top: .2em solid #BA9FCF;
+  border-width: 75%;
+  margin: .6em 20%;
+}
+.leslie {
+  text-align: center;
+}
+.js-apps {
+  text-align: center;
+}
 
 /*-----------mousebee----------*/
 

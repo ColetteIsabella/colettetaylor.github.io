@@ -5,17 +5,34 @@
     <description></description>
     <link>http://colettetaylor.com//</link>
     <atom:link href="http://colettetaylor.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Apr 2016 14:19:18 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Apr 2016 14:19:18 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Apr 2016 14:35:45 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Apr 2016 14:35:45 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>Testing!</title>
-        <description>This is a test
+        <title>some apps</title>
+        <description>&lt;div class=&quot;js-apps&quot;&gt;
+&lt;h1&gt;Apps I have made&lt;/h1&gt;
+&lt;h2&gt;I&#39;ve been learning how to code, and in so doing, I have made some simple javascript-based apps which are very silly, but make me happy.&lt;/h2&gt;
+&lt;div class= &quot;app-separate&quot;&gt;
+&lt;h2&gt;The Leslie Knope App&lt;/h2&gt;
+&lt;p&gt;I made this app around my enjoyment of the show Parks and Recreation, and the mode by which Leslie talks to Ann. I can never get a good line right off the top of my head, so I created a generator:&lt;/p&gt;
+
+&lt;h2 class=&quot;leslie&quot;&gt;&lt;a href=&quot;/leslieknope/index.html&quot;&gt;Speak Leslie&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;div class= &quot;app-separate&quot;&gt;
+&lt;h2&gt;Alternate TimeZone App&lt;/h2&gt;
+&lt;p&gt;So in the last few months, I went from a very regimented cycle of night and day cycle, to a strange sort of sleep-when-I-pass-out method.&lt;/p&gt;
+&lt;p&gt;This has a lot of factors influencing its results, and can vary wildly every few days. One night, I am up until 6 am coding or making a new stuffie, and then I can&#39;t sleep for 23 hours, and wake up sometime the next night.&lt;/p&gt;
+&lt;p&gt;This works as a freeelancer, and has been merciful with my depressive cycles, but my partner, who was on a similar schedule, and I began joking that it was like we were waking up in a different timezone every day, so we wondered: Where were we waking up. And sinceit&#39;s me, I created an app to find out:&lt;/p&gt;
+&lt;h2 class=&quot;leslie&quot;&gt;&lt;a href=&quot;/timezone/index.html&quot;&gt;When the F*ck Are You?&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
-        <link>http://colettetaylor.com//2016/04/01/testing.html</link>
-        <guid isPermaLink="true">http://colettetaylor.com//2016/04/01/testing.html</guid>
+        <pubDate>Fri, 01 Apr 2016 17:21:31 -0700</pubDate>
+        <link>http://colettetaylor.com//2016/04/01/javascript.html</link>
+        <guid isPermaLink="true">http://colettetaylor.com//2016/04/01/javascript.html</guid>
         
         
       </item>
