@@ -133,5 +133,6 @@ PLATFORMS
 DEPENDENCIES
   exifr
   github-pages
+  jekyll-feed
   nokogiri
   rmagick

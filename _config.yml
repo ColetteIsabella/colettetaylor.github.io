@@ -39,7 +39,13 @@ navigation:
 markdown: kramdown
 
 subscribe_rss: atom.xml
-subscribe_email:
+email: coletteisabella@gmail.com
+
+name: MouseBee Stories
+description: A blog updated with news and info on Flying Sloths, MouseBees, and other silly creations.
+url: http://colettetaylor.com
+gems:
+  - jekyll-feed
 
 linkedin_user: coletteisabella
 
