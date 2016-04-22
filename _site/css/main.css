@@ -226,6 +226,30 @@ a:hover {
   text-align: center;
 }
 
+/* ----------slothstories-------*/
+.slothstories h2 {
+  text-align: center;
+}
+.slothstories h3 {
+  padding-left: 2em;
+  font-size: 2.2rem;
+  margin-bottom: .5em;
+}
+.slothstories p {
+  color: #2F0D49;
+  margin-top: .5em;
+}
+.thomas {
+  text-align: center;
+  width: 30%;
+  margin: 1em 30%;
+  height: auto;
+  border: .3em solid #130220;
+}
+.slothstories .caption {
+  width: 30%;
+  padding: 0;
+}
 /*-----------mousebee----------*/
 
 
