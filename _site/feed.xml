@@ -1,12 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Colette Isabella</title>
+  <meta name="description" content="A blog updated with news and info on Flying Sloths, MouseBees, and other silly creations.">
+  <link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="/scripts/jquery.js"></script>
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+
+
+  <script src="/scripts/colette.js"></script>
+
+
+  <!--link rel="stylesheet" href="//css/main.css"-->
+  <link rel="canonical" href="http://colettetaylor.com//feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Colette Isabella" href="http://colettetaylor.com//feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="MouseBee" href="/atom.xml" />
+  <link href="/assets/favicon.png" rel="icon">
+
+
+
+</head>
+
+
+  <body>
+
+    <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colette Isabella</title>
     <description>A blog updated with news and info on Flying Sloths, MouseBees, and other silly creations.</description>
     <link>http://colettetaylor.com//</link>
     <atom:link href="http://colettetaylor.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 00:26:58 -0700</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 00:26:58 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 21:53:17 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 21:53:17 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -211,4 +245,10 @@
       </item>
     
   </channel>
+  Wut
 </rss>
+
+
+  </body>
+
+</html>
