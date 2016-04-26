@@ -257,7 +257,9 @@ a:hover {
   background-color: white;
   color: black;
 }
-
+.mousebee-header {
+  margin-bottom: 0;
+}
 .mousebee-header, .mousebee-footer {
   background-color: black;
   color: white;
