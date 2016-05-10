@@ -34,6 +34,7 @@ header {
 .myhead {
   height: 9em;
   margin-left: .1%;
+  margin-top: 1em;
   display: block;
   z-index: 99;
 }
@@ -227,11 +228,15 @@ a:hover {
 }
 
 /* ----------slothstories-------*/
+.slothstories h1 {
+  font-size: 2.5em;
+}
 .slothstories h2 {
   text-align: center;
 }
 .slothstories h3 {
   padding-left: 2em;
+  padding-right: 1em;
   font-size: 2.2rem;
   margin-bottom: .5em;
 }
@@ -241,14 +246,29 @@ a:hover {
 }
 .thomas {
   text-align: center;
-  width: 30%;
-  margin: 1em 30%;
+  width: 40%;
+  margin: 1em 25%;
   height: auto;
   border: .3em solid #130220;
 }
 .slothstories .caption {
   width: 30%;
   padding: 0;
+}
+
+.julianne1 {
+  float: right;
+  width: 35%;
+  margin: 1em 5% 1em 8%;
+  height: auto;
+  border: .3em solid #130220;
+}
+.julianne2 {
+  float: left;
+  width: 35%;
+  margin: 1em 8% 1em 5%;
+  height: auto;
+  border: .3em solid #130220;
 }
 /*-----------mousebee----------*/
 
