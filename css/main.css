@@ -270,6 +270,42 @@ a:hover {
   height: auto;
   border: .3em solid #130220;
 }
+
+@media only screen and (max-width: 800px) {
+.post-header {
+  text-align: center;
+  font-style: bold;
+  font-size: 3rem;
+  color: #7E589B;
+}
+.post-date, .post-link {
+  text-align: center;
+  display: block;
+  color: #7E589B;
+}
+
+#blog {
+  border-top: .5em solid #BA9FCF;
+  border-width: 90%;
+  margin: 0 5%;
+}
+.post-link {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+.post-date {
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-top: .3em;
+  padding-bottom: 1em;
+
+}
+.post-separate{
+  border-bottom: .2em solid #BA9FCF;
+  border-width: 70%;
+  margin: 1.6em 10%;
+}
+}
 /*-----------mousebee----------*/
 
 
