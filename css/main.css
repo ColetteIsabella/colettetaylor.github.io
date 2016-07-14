@@ -451,6 +451,10 @@ nav a:hover {
   margin: 0 30%;
 
 }
+.announcement {
+  text-align: center;
+  margin: 0 20%;
+}
 p {
   color: #2F0D49;
   text-align: center;
